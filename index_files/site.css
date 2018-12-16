@@ -1,0 +1,108 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #D0D0D0
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.jumbotron {
+    text-align: left;
+}
+
+.pageitem {
+    height: 330px;
+    width: 100%;
+}
+
+.navbar-image {
+    background-image: url(UKHSLogo.png);
+    background-repeat: no-repeat;
+    width: 100px;
+}
+
+.ukhsleaderboard {
+    background-image: url(corgi.png);
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.pool {
+    background-image: url(corgi.png);
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.osu-video {
+    position: relative;
+}
+
+    .osu-video video {
+        position: relative;
+        z-index: 0;
+        filter: brightness(65%);
+    }
+
+.osu-video-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    padding: 18px;
+    text-align: left;
+}
+
+.black-text {
+    color: black;
+}
+
+.blurple-text {
+    color: #7289DA;
+}
+
+.pink-background,
+.pink-background:hover,
+.pink-background.hover,
+.pink-background:focus,
+.pink-background.focus {
+    background-color: #FF69B4;
+    border-color: #FF69B4;
+}
+
+.greyple-background,
+.greyple-background:hover,
+.greyple-background.hover,
+.greyple-background:focus,
+.greyple-background.focus {
+    background-color: #99AAB5;
+    border-color: #99AAB5;
+}
+
+.gold-background,
+.gold-background:hover,
+.gold-background.hover,
+.gold-background:focus,
+.gold-background.focus {
+    background-color: gold;
+    border-color: gold;
+}
